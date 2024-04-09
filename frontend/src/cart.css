@@ -1,0 +1,261 @@
+.div,
+.group-child {
+    position: absolute;
+    top: 0;
+}
+
+.group-child {
+    left: 0;
+    background-color: #fff;
+    width: 1440px;
+    height: 525px;
+}
+
+.div {
+    left: 461px;
+    color: var(--color-black);
+}
+
+.asgaard-sofa11,
+.div11 {
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.div11 {
+    left: 177px;
+}
+
+.group-item,
+.parent {
+    position: absolute;
+    top: 150px;
+    left: 142px;
+    width: 559px;
+    height: 25px;
+}
+
+.group-item {
+    top: 0;
+    left: 0;
+    background-color: var(--color-linen);
+    width: 817px;
+    height: 55px;
+}
+
+.price1,
+.product,
+.quantity,
+.subtotal {
+    position: absolute;
+    top: 0;
+    left: 142px;
+    font-weight: 500;
+}
+
+.price1,
+.quantity,
+.subtotal {
+    left: 319px;
+}
+
+.quantity,
+.subtotal {
+    left: 496px;
+}
+
+.subtotal {
+    left: 602px;
+}
+
+.group-inner {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 108px;
+    height: 105px;
+    object-fit: contain;
+}
+
+.rectangle-div1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    border: 1px solid var(--color-darkgray);
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+}
+
+.div21 {
+    position: absolute;
+    top: 4px;
+    left: 13px;
+}
+
+.rectangle-container1 {
+    position: absolute;
+    top: 132px;
+    left: 515px;
+    width: 32px;
+    height: 32px;
+}
+
+.ant-designdelete-filled-icon {
+    position: absolute;
+    top: 133px;
+    left: 764px;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+}
+
+.product-parent {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 792px;
+    height: 200px;
+}
+
+.rectangle-group1 {
+    color: var(--color-black);
+}
+
+.group-child1,
+.group-container,
+.rectangle-group1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 817px;
+    height: 215px;
+}
+
+.group-child1 {
+    background-color: var(--color-linen);
+    width: 393px;
+    height: 390px;
+}
+
+.cart-totals {
+    position: absolute;
+    top: 15px;
+    left: 96px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.subtotal1,
+.total {
+    position: absolute;
+    top: 124px;
+    left: 75px;
+    font-weight: 500;
+}
+
+.total {
+    top: 179px;
+}
+
+.div31,
+.div41 {
+    position: absolute;
+    top: 124px;
+    left: 220px;
+    color: var(--color-darkgray);
+}
+
+.div41 {
+    top: 179px;
+    left: 193px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.group-child2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 222px;
+    height: 59px;
+}
+
+.check-out {
+    position: absolute;
+    top: 14px;
+    left: 59px;
+}
+
+.rectangle-parent12 {
+    position: absolute;
+    top: 50px;
+    left: 86px;
+    width: 222px;
+    height: 59px;
+    font-size: var(--font-size-xl);
+}
+
+.rectangle-parent13 {
+    position: absolute;
+    top: 250px;
+    left: 86px;
+    width: 222px;
+    height: 59px;
+    font-size: var(--font-size-xl);
+}
+
+.group-div1,
+.group-parent {
+    position: absolute;
+    height: 390px;
+}
+
+.group-div1 {
+    top: 0;
+    left: 847px;
+    width: 393px;
+    color: var(--color-black);
+}
+
+.group-parent {
+    top: 72px;
+    left: 100px;
+    width: 1240px;
+}
+
+.rectangle-parent12 {
+    width: 100%;
+    position: relative;
+    height: 525px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-darkgray);
+    font-family: var(--font-poppins);
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-poppins: Poppins;
+
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+
+    /* Colors */
+    --color-black: #000;
+    --primary: #b88e2f;
+    --color-darkgray: #9f9f9f;
+    --color-linen: #f9f1e7;
+}
